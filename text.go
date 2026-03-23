@@ -10,6 +10,9 @@ func FormatDate(t time.Time) string {
 }
 
 func main() {
+
+	
 	now := time.Now()
 	fmt.Println(FormatDate(now)) 
 }
+
